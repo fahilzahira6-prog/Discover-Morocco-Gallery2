@@ -179,7 +179,7 @@ button{
     color:white;
     display:flex;
     align-items:center;
-    font-size:14px;
+    font-size:10px;
     transition:.35s;
 }
 .buttons button:hover{
