@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Morocco | Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="background_hero">
+        <section class="hero">
+            <div class="overlay"></div>
+            <header class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Discover Morocco Logo">
+                    <h2> DISCOVER
+                      <span>MOROCCO</span>
+                    </h2>
+                </div>
+                <nav class="nav-links">
+                    <a href="#" class="active">Home</a>
+                    <a href="https://www.bbc.com/news/world-africa-14121438" target="_blank" >About Morocco</a>
+                </nav>
+            </header>
+            <div class="hero-content">
+                <h3>Discover</h3>
+                <h1>MOROCCO</h1>
+                <img class="flag" src="images/morocco-flag.png" alt="Moroccan Flag">
+                <p> Discover Morocco through breathtaking landscapes, rich history, vibrant traditions, colorful cities, and unforgettable cultural experiences.</p>
+                <div class="line">
+                    <span></span>
+                    <i class="fa-solid fa-diamond"></i>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+        <section class="buttons">
+            <button class="active" data-filter="all"> All </button> 
+            <button data-filter="Flag"> Flag </button>
+            <button data-filter="nature"> Nature </button>
+            <button data-filter="food"> Food </button>
+            <button data-filter="culture"> Culture </button>
+            <button data-filter="crafts"> Crafts </button>
+            <button data-filter="fushion"> Fushion </button>
+           
+            <div class="city-dropdown">
+                <button id="cityBtn" data-filter="city">City <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="city-menu">
+                    <button data-filter="casablanca"> Casablanca</button>
+                    <button data-filter="marrakech"> Marrakech </button>
+                    <button data-filter="chefchaouen"> Chefchaouen </button>
+                    <button data-filter="fes">  Fes </button>
+                    <button data-filter="rabat"> Rabat </button>
+                    <button data-filter="tangier"> Tangier</button>
+                    <button data-filter="agadir"> Agadir</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="gallery" id="gallery">
+
+        <div class="card Flag">
+            <img src="images/flag/flag1.jpg" alt="Flag 1">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag2.jpg" alt="Flag 2">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag3.jpg" alt="Flag 3">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag4.jpg" alt="Flag 4">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag5.jpg" alt="Flag 5">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag6.jpg" alt="Flag 6">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag7.jpg" alt="Flag 7">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag8.jpg" alt="Flag 8">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag9.jpg" alt="Flag 9">
+            <div class="card-title">Flag</div>
+        </div>
+         <div class="card Flag">
+            <img src="images/flag/flag10.jpg" alt="Flag 10">
+            <div class="card-title">Flag</div>
+        </div>
+        
+
+        <div class="card nature">
+            <img src="images/nature/nature1.webp" alt="Nature 1">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature2.jpg" alt="Nature 2">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature3.jpg" alt="Nature 3">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature4.jpg" alt="Nature 4">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature5.jpg" alt="Nature 5">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature6.jpg" alt="Nature 6">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature7.jpg" alt="Nature 7">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature8.jpg" alt="Nature 8">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature9.jpg" alt="Nature 9">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature10.jpg" alt="Nature 10">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature11.jpg" alt="Nature 11">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature12.jpg" alt="Nature 12">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature13.jpg" alt="Nature 13">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature14.jpg" alt="Nature 14">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature15.jpg" alt="Nature 15">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature16.jpg" alt="Nature 16">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature17.jpg" alt="Nature 17">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature18.jpg" alt="Nature 18">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature19.jpg" alt="Nature 19">
+            <div class="card-title">Nature</div>
+        </div>
+        <div class="card nature">
+            <img src="images/nature/nature20.jpg" alt="Nature 20">
+            <div class="card-title">Nature</div>
+        </div>
+
+        <div class="card food">
+            <img src="images/food/food1.jpg" alt="Food 1">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food2.jpg" alt="Food 2">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food3.jpg" alt="Food 3">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food4.jpg" alt="Food 4">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food5.jpg" alt="Food 5">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food6.jpg" alt="Food 6">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food7.jpg" alt="Food 7">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food8.jpg" alt="Food 8">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food9.jpg" alt="Food 9">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food10.jpg" alt="Food 10">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food11.jpg" alt="Food 11">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food12.jpg" alt="Food 12">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food13.jpg" alt="Food 13">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food14.jpg" alt="Food 14">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food15.jpg" alt="Food 15">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food16.jpg" alt="Food 16">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food17.jpg" alt="Food 17">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food18.jpg" alt="Food 18">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food19.jpg" alt="Food 19">
+            <div class="card-title">Food</div>
+        </div>
+        <div class="card food">
+            <img src="images/food/food20.jpg" alt="Food 20">
+            <div class="card-title">Food</div>
+        </div>
+       
+
+        <div class="card culture">
+            <img src="images/culture/culture1.webp" alt="culture 1">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture2.jpg" alt="culture 2">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture3.jpg" alt="culture 3">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture4.jpg" alt="culture 4">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture5.webp" alt="culture 5">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture6.jpg" alt="culture 6">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture7.jpg" alt="culture 7">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture8.jpg" alt="culture 8">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture9.jpg" alt="culture 9">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture10.jpg" alt="culture 10">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture11.jpg" alt="culture 11">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture12.jpg" alt="culture 12">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture13.jpg" alt="culture 13">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture14.jpg" alt="culture 14">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture15.jpg" alt="culture 15">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture16.webp" alt="culture 16">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture17.jpg" alt="culture 17">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture18.jpg" alt="culture 18">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture19.jpg" alt="culture 19">
+            <div class="card-title">culture</div>
+        </div>
+        <div class="card culture">
+            <img src="images/culture/culture20.webp" alt="culture 20">
+            <div class="card-title">culture</div>
+        </div>
+        
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa1.jpg" alt="Casablanca 1">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa2.jpg" alt="Casablanca 2">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa3.jpg" alt="Casablanca 3">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa4.jpg" alt="Casablanca 4">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa5.jpg" alt="Casablanca 5">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa6.jpg" alt="Casablanca 6">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa7.jpg" alt="Casablanca 7">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa8.jpg" alt="Casablanca 8">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa9.jpg" alt="Casablanca 9">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa10.jpg" alt="Casablanca 10">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa11.jpg" alt="Casablanca 11">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa12.jpg" alt="Casablanca 12">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa13.jpg" alt="Casablanca 13">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city casablanca">
+            <img src="images/city/casablanca/casa14.webp" alt="Casablanca 14">
+            <div class="card-title">Casablanca</div>
+        </div>
+        
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech1.jpg" alt="Marrakech 1">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech2.jpg" alt="Marrakech 2">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech3.jpg" alt="Marrakech 3">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech4.jpg" alt="Marrakech 4">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech5.jpg" alt="Marrakech 5">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech6.jpg" alt="Marrakech 6">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech7.jpg" alt="Marrakech 7">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech8.jpg" alt="Marrakech 8">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech9.jpg" alt="Marrakech 9">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech10.jpg" alt="Marrakech 10">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech11.jpg" alt="Marrakech 11">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech12.jpg" alt="Marrakech 12">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech13.jpg" alt="Marrakech 13">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech14.jpg" alt="Marrakech 14">
+            <div class="card-title">Casablanca</div>
+        </div>
+        <div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech15.jpg" alt="Marrakech 15">
+            <div class="card-title">Casablanca</div>
+        </div><div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech16.jpg" alt="Marrakech 16">
+            <div class="card-title">Casablanca</div>
+        </div><div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech17.jpg" alt="Marrakech 17">
+            <div class="card-title">Casablanca</div>
+        </div><div class="card city marrakech">
+            <img src="images/city/marrakech/marrakech18.jpg" alt="Marrakech 18">
+            <div class="card-title">Casablanca</div>
+        </div>
+        
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen1.jpg" alt="Chefchaouen 1">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen2.jpg" alt="Chefchaouen 2">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen3.jpg" alt="Chefchaouen 3">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen4.jpg" alt="Chefchaouen 4">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen5.jpg" alt="Chefchaouen 5">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen6.jpg" alt="Chefchaouen 6">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen7.jpg" alt="Chefchaouen 7">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen8.jpg" alt="Chefchaouen 8">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen9.jpg" alt="Chefchaouen 9">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen10.jpg" alt="Chefchaouen 10">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen11.jpg" alt="Chefchaouen 11">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen12.jpg" alt="Chefchaouen 12">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen13.jpg" alt="Chefchaouen 13">
+            <div class="card-title">Chefchaouen</div>
+        </div><div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen14.jpg" alt="Chefchaouen 14">
+            <div class="card-title">Chefchaouen</div>
+        </div><div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen15.jpg" alt="Chefchaouen 15">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+        <div class="card city chefchaouen">
+            <img src="images/city/chefchaouen/chefchaouen16.jpg" alt="Chefchaouen 16">
+            <div class="card-title">Chefchaouen</div>
+        </div>
+
+        <div class="card city fes">
+            <img src="images/city/fes/fes1.jpg" alt="Fes 1">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes2.jpg" alt="Fes 2">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes3.jpg" alt="Fes 3">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes4.jpg" alt="Fes 4">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes5.jpg" alt="Fes 5">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes6.jpg" alt="Fes 6">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes7.jpg" alt="Fes 7">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes8.jpg" alt="Fes 8">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes9.jpg" alt="Fes 9">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes10.jpg" alt="Fes 10">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes11.jpg" alt="Fes 11">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes12.jpg" alt="Fes 12">
+            <div class="card-title">Fes</div>
+        </div>
+        <div class="card city fes">
+            <img src="images/city/fes/fes13.jpg" alt="Fes 13">
+            <div class="card-title">Fes</div>
+        </div>
+
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat1.jpg" alt="Rabat 1">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat2.jpg" alt="Rabat 2">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat3.jpg" alt="Rabat 3">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat4.jpg" alt="Rabat 4">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat5.jpg" alt="Rabat 5">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat6.jpg" alt="Rabat 6">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat7.jpg" alt="Rabat 7">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat8.jpg" alt="Rabat 8">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat9.jpg" alt="Rabat 9">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat10.jpg" alt="Rabat 10">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat11.jpg" alt="Rabat 11">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat12.jpg" alt="Rabat 12">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat13.jpg" alt="Rabat 13">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat14.jpg" alt="Rabat 14">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat15.jpg" alt="Rabat 15">
+            <div class="card-title">Rabat</div>
+        </div>
+        <div class="card city rabat">
+            <img src="images/city/rabat/rabat16.jpg" alt="Rabat 16">
+            <div class="card-title">Rabat</div>
+        </div><div class="card city rabat">
+            <img src="images/city/rabat/rabat17.jpg" alt="Rabat 17">
+            <div class="card-title">Rabat</div>
+        </div><div class="card city rabat">
+            <img src="images/city/rabat/rabat18.jpg" alt="Rabat 18">
+            <div class="card-title">Rabat</div>
+        </div>
+
+
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger1.jpg" alt="Tangier 1">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger2.jpg" alt="Tangier 2">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger3.jpg" alt="Tangier 3">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger4.jpg" alt="Tangier 4">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger5.jpg" alt="Tangier 5">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger6.jpg" alt="Tangier 6">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger7.jpg" alt="Tangier 7">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger8.jpg" alt="Tangier 8">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger9.jpg" alt="Tangier 9">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger10.jpg" alt="Tangier 10">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger11.jpg" alt="Tangier 11">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger12.jpg" alt="Tangier 12">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger13.jpg" alt="Tangier 13">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger14.jpg" alt="Tangier 14">
+            <div class="card-title">Tangier</div>
+        </div>
+        <div class="card city tangier">
+            <img src="images/city/tanger/tanger1.jpg" alt="Tangier 1">
+            <div class="card-title">Tangier</div>
+        </div>
+
+        <div class="card city agadir">
+            <img src="images/city/agadir/agadir1.webp" alt="Agadir 1">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir2.jpg" alt="Agadir 2">
+            <div class="card-title">Agadir</div>
+        </div> <div class="card city agadir">
+            <img src="images/city/agadir/agadir3.jpg" alt="Agadir 3">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir4.jpg" alt="Agadir 4">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir5.webp" alt="Agadir 5">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir6.webp" alt="Agadir 6">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir7.jpg" alt="Agadir 7">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir8.jpg" alt="Agadir 8">
+            <div class="card-title">Agadir</div>
+        </div>
+         <div class="card city agadir">
+            <img src="images/city/agadir/agadir9.jpg" alt="Agadir 9">
+            <div class="card-title">Agadir</div>
+        </div>
+
+
+        <div class="card crafts">
+            <img src="images/crafts/craft1.webp" alt="crafts 1">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft2.webp" alt="crafts 2">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft3.jpg" alt="crafts 3">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft4.jpg" alt="crafts 4">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft5.jpg" alt="crafts 5">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft6.jpg" alt="crafts 6">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft7.jpg" alt="crafts 7">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft8.jpg" alt="crafts 8">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft9.jpg" alt="crafts 9">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft10.jpg" alt="crafts 10">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft11.jpg" alt="crafts 11">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft12.jpg" alt="crafts 12">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft13.jpg" alt="crafts 13">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft14.jpg" alt="crafts 14">
+            <div class="card-title">Craft</div>
+        </div>
+        <div class="card crafts">
+            <img src="images/crafts/craft15.jpg" alt="crafts 15">
+            <div class="card-title">Craft</div>
+        </div>
+
+        
+
+        <div class="card fushion">
+            <img src="images/fushion/fushion1.jpg" alt="Fushion 1">
+            <div class="card-title">Fushion</div>
+        </div>
+       <div class="card fushion">
+            <img src="images/fushion/fushion2.jpg" alt="Fushion 2">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion3.jpg" alt="Fushion 3">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion4.jpg" alt="Fushion 4">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion5.jpg" alt="Fushion 5">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion6.jpg" alt="Fushion 6">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion7.jpg" alt="Fushion 7">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion8.jpg" alt="Fushion 8">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion9.jpg" alt="Fushion 9">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion10.webp" alt="Fushion 10">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion11.jpg" alt="Fushion 11">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion12.jpg" alt="Fushion 12">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion13.jpg" alt="Fushion 13">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion14.jpg" alt="Fushion 14">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion15.jpg" alt="Fushion 15">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion16.webp" alt="Fushion 16">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion17.webp" alt="Fushion 17">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion17.jpg" alt="Fushion 18">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion18.jpg" alt="Fushion 19">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion19.jpg" alt="Fushion 20">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion20.jpg" alt="Fushion 21">
+            <div class="card-title">Fushion</div>
+        </div>
+        <div class="card fushion">
+            <img src="images/fushion/fushion21.jpg" alt="Fushion 22">
+            <div class="card-title">Fushion</div>
+        </div>
+        
+
+            </section>
+    <div class="lightbox">
+        <span class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <span class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </span>
+        <img id="lightbox-img" src="" alt="Gallery Image">
+        <span class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </span>
+    </div>
+    <button id="scrollTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
