@@ -456,12 +456,12 @@ footer p{
 }
 
 #cityBtn{
-    padding:12px 25px;
+    padding:10px 20px;
     border:none;
     border-radius:30px;
     background:#2a201c;
     color:white;
-    font-size:15px;
+    font-size:10px;
     cursor:pointer;
     transition:.3s;
 }
@@ -498,12 +498,12 @@ footer p{
 
 .city-menu button{
     width:100%;
-    padding:15px;
+    padding:10px 20px;
     border:none;
     background:none;
     color:white;
     text-align:left;
-    font-size:15px;
+    font-size:10px;
     cursor:pointer;
     transition:.3s;
 }
