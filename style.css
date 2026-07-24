@@ -158,12 +158,13 @@ button{
     color:#d4b06a;
     font-size:12px;
 }
-..buttons{
+.buttons{
     width:92%;
     max-width:1200px;
-    margin:25px auto 40px;
-    position:relative;
+    margin:15px auto 40px;
+    position: relative;
     z-index:50;
+    flex-wrap:wrap;
     display:flex;
     justify-content:center;
     align-items:center;
