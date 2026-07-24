@@ -161,7 +161,7 @@ button{
 .buttons{
     width:92%;
     max-width:1200px;
-    margin:15px auto 40px;
+    margin:-35px auto 40px;
     position: relative;
     z-index:50;
     flex-wrap:wrap;
@@ -172,14 +172,14 @@ button{
     gap:15px;
 }
 .buttons button{
-    padding:10px 20px;
+    padding:12px 25px;
     border-radius:30px;
     background:#2a201c;
     backdrop-filter:blur(12px);
     color:white;
     display:flex;
     align-items:center;
-    font-size:14px;
+    font-size:20px;
     transition:.35s;
 }
 .buttons button:hover{
