@@ -172,14 +172,14 @@ button{
     gap:15px;
 }
 .buttons button{
-    padding:12px 25px;
+    padding:10px 20px;
     border-radius:30px;
     background:#2a201c;
     backdrop-filter:blur(12px);
     color:white;
     display:flex;
     align-items:center;
-    font-size:20px;
+    font-size:14px;
     transition:.35s;
 }
 .buttons button:hover{
